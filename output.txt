@@ -1,0 +1,17 @@
+(venv)zappa> zappa invoke dev_brand_video 'app.lambda_handler'
+Calling invoke for environment dev_brand_video..
+START RequestId: 017da4f3-dbdf-11e6-b0af-a380e53719e9 Version: $LATEST
+module initialization error: 'module' object has no attribute 'audio_fadein'
+
+END RequestId: 017da4f3-dbdf-11e6-b0af-a380e53719e9
+REPORT RequestId: 017da4f3-dbdf-11e6-b0af-a380e53719e9	Duration: 0.32 ms	Billed Duration: 100 ms 	Memory Size: 1536 MB	Max Memory Used: 28 MB	
+
+
+
+
+
+
+
+(venv)zappa> zappa tail dev_brand_video
+Calling tail for environment dev_brand_video..
+[1484566155208] module initialization error: 'module' object has no attribute 'audio_fadein'
